@@ -1,0 +1,6 @@
+opencv-python
+numpy
+pupil-apriltags
+Flask
+pymavlink
+matplotlib
