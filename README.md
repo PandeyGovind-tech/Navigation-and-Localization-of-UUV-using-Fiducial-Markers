@@ -40,7 +40,7 @@ A web-based interface is included to stream the live camera feeds and visualize 
     * Ensure the flight controller is connected via a serial port (e.g., `/dev/serial0`).
 
 2.  **Configuration:**
-    * Edit `app.py` to update the `predefined_positions` dictionary with the known real-world coordinates of your AprilTags. These values should be in millimeters.
+    * Edit ``app.py`` to update the `predefined_positions` dictionary with the known real-world coordinates of your AprilTags. These values should be in millimeters.
     * **Crucially**, you must perform **camera calibration** and replace the placeholder `camera_matrix1`, `camera_matrix2`, `dist_coeffs1`, and `dist_coeffs2` values with your own calibration results. Incorrect calibration will lead to inaccurate pose estimation.
 
 3.  **Run the script:**
